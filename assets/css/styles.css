@@ -75,3 +75,13 @@ img.arrow { height: 20px;}
     animation: overlay-animation-site-tablet 3s ease;
   }
 }
+
+.toggle-legend {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 120px);
+  top: 119px;
+  background: #244d7b;
+}
