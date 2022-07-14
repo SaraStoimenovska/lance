@@ -7,31 +7,27 @@ function onSvgLoad() {
     emerganyGasValves.style.visibility = 'hidden'
   }
   
-  function toggleLayer(id) {
-      var element = document.getElementById(id);
-      var elementText = document.getElementById(id + '_text');
-      if (element.style.visibility == 'hidden') {
-          element.style.visibility = 'visible';
-          elementText.innerText = 'Hide';
-        } else {
-          element.style.visibility = 'hidden';
-          elementText.innerText = 'Show';
-      }
+  function toggleLayer(id, btn) {
+    var element = document.getElementById(id);
+    if (element.style.visibility == 'hidden') {
+        element.style.visibility = 'visible';
+        btn.style.backgroundColor = '#6882a3';
+      } else {
+        element.style.visibility = 'hidden';
+        btn.style.backgroundColor = '#244d7b';
+    }
   }
 
 function toggleLegendOn() {
   var toggle = document.getElementById("toggle");
   toggle.style.display = "none";
   var legend = document.getElementById("legend");
-  legend.style.width = "250px";
-  legend.style.visibility = "visible";
+  legend.style.display = "flex";
 }
 
 function toggleLegendOff() {
   var toggle = document.getElementById("toggle");
   toggle.style.display = "block";
-  document.getElementById("toggle").style.visibility = "visible";
   var legend = document.getElementById("legend");
-  legend.style.width = "0";
-  legend.style.visibility = "hidden";
+  legend.style.display = "none";
 }

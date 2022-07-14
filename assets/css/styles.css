@@ -7,6 +7,10 @@
   font-family: Calibri;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img.arrow { height: 20px;}
 
 .section {
@@ -84,4 +88,35 @@ img.arrow { height: 20px;}
   height: calc(100vh - 120px);
   top: 119px;
   background: #244d7b;
+}
+
+.menu {
+  color: #244d7b;
+  font-weight: bold;
+}
+
+#legend {
+  gap: 10px;
+  display: none;
+}
+
+.legend-buttons {
+  background-color: white;
+  height: calc(100vh - 120px);
+}
+
+.legend-buttons button {
+  background-color: #244d7b;
+  border: none;
+  border-radius: unset;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.square {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
 }

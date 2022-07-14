@@ -21,15 +21,12 @@ function toggleLegendOn() {
   var toggle = document.getElementById("toggle");
   toggle.style.display = "none";
   var legend = document.getElementById("legend");
-  legend.style.width = "250px";
-  legend.style.visibility = "visible";
+  legend.style.display = "flex";
 }
 
 function toggleLegendOff() {
   var toggle = document.getElementById("toggle");
   toggle.style.display = "block";
-  document.getElementById("toggle").style.visibility = "visible";
   var legend = document.getElementById("legend");
-  legend.style.width = "0";
-  legend.style.visibility = "hidden";
+  legend.style.display = "none";
 }
