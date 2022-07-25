@@ -1,4 +1,4 @@
-function onSvgOsbourneLoad() {
+function onSvgOsborneLoad() {
   var belowGround = document.getElementById('Below_ground_gas');
   belowGround.style.visibility = 'hidden'
   var aboveGround = document.getElementById('Above_ground_Gas');
@@ -7,7 +7,7 @@ function onSvgOsbourneLoad() {
   emerganyGasValves.style.visibility = 'hidden'
 }
 
-function onSvgFalkinLoad() {
+function onSvgFalkonLoad() {
   var belowGround = document.getElementById('Below_ground_gas_pipeline');
   belowGround.style.visibility = 'hidden'
   var aboveGround = document.getElementById('Above_ground_gas_pipeline');
