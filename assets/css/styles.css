@@ -121,6 +121,10 @@ img.arrow { height: 20px;}
   margin-right: 5px;
 }
 
+footer {
+  border-top: 5px solid #244d7b;
+}
+
 footer * {
   font-size: 1rem!important;
 }
