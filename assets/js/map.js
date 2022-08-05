@@ -1,9 +1,9 @@
 function onSvgOsborneLoad() {
-  var belowGround = document.getElementById('Below_ground_gas');
+  var belowGround = document.getElementById('Below_ground_gas_pipeline');
   belowGround.style.visibility = 'hidden'
-  var aboveGround = document.getElementById('Above_ground_Gas');
+  var aboveGround = document.getElementById('Above_ground_gas_pipeline');
   aboveGround.style.visibility = 'hidden'
-  var emerganyGasValves = document.getElementById('Emergany_Gas_Isolation_valves');
+  var emerganyGasValves = document.getElementById('Emergancy_Gas_Isolation_Values');
   emerganyGasValves.style.visibility = 'hidden'
 }
 
